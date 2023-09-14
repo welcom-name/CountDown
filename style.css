@@ -1,0 +1,17 @@
+.countdown {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.countdown-box {
+    width: 150px;
+    height: 120px;
+    background: rgba(28, 0, 0, 0.157);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.countdown-box .period {
+    font-size: 1.5rem;
+}
