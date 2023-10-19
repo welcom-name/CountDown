@@ -8,7 +8,7 @@ const secondscount = document.getElementById("seconds");
 
 function countDown() {
     const timeClass = new Date();
-    const timeChange = new Date("Sep 15,2023 15:40:00");
+    const timeChange = new Date("Sep 15,2024 15:40:00");
     const timeRemain = timeChange - timeClass;
     const days = Math.floor(timeRemain / (1000*60*60*24));
     const hours = Math.floor((timeRemain % (1000*60*60*24))/(1000*60*60));
